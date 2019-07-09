@@ -10,7 +10,7 @@ public class FirstComeFirstServe{
         int numOfProcess = myRiFa.nextInt();
         System.out.println();
 
-        myRiFa.nextLine(); //Cleaning the buffer to avoid '/n'
+        myRiFa.nextLine(); //Cleaning the buffer to avoid getting '/n' as input.
 
         System.out.print("Enter each process arrival time(ms) and CPU burst : ");
         String timeandBurst = myRiFa.nextLine();
