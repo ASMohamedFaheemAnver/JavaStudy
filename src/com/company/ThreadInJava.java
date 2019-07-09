@@ -1,5 +1,6 @@
 package com.company;
 
+// https://www.geeksforgeeks.org/main-thread-java/
 class ChildThread extends Thread{
     @Override
     public void run(){
