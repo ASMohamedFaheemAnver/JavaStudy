@@ -1,23 +1,22 @@
 package com.company;
 
-public class LinkedStack {
+public class LinkedStack{
     class Node{
         int data;
         Node next;
 
-        public Node(int data){
+        Node(int data){
             this.data = data;
-            this.next = null;
+            next = null;
         }
     }
 
-    public Node head = null;
-    public Node tail = null;
+    Node head = null;
+    Node tail = null;
 
-    public void addNode(int data){
+    void addNode(int data){
         Node newNode = new Node(data);
-
-        if(head==null){
+        if (head == null){
             head = newNode;
             tail = newNode;
         }else {
@@ -26,26 +25,24 @@ public class LinkedStack {
         }
     }
 
-    public void display(){
-        Node current = head;
-
+    void displayList(){
+        Node currentNode = head;
         if(head.equals(null)){
-            System.out.println("List is empty!");
+            System.out.println("List is empty dude!");
         }else {
-            while (current!=null){
-                System.out.println(current.data + " ");
-                current = current.next;
+            while (currentNode!=null){
+                System.out.println(currentNode.data + " ");
+                currentNode = currentNode.next;
             }
-            System.out.println();
         }
     }
 
     public static void main(String[] args){
-        LinkedStack sList = new LinkedStack();
-        sList.addNode(1);
-        sList.addNode(2);
-        sList.addNode(6);
+        LinkedStack newList = new LinkedStack();
+        newList.addNode(1);
+        newList.addNode(2);
+        newList.addNode(3);
 
-        sList.display();
+        newList.displayList();
     }
 }
