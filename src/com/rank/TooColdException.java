@@ -1,0 +1,4 @@
+package com.company._30DaysOfCode;
+
+public class TooColdException extends TemperatureException{
+}

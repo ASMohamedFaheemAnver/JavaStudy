@@ -1,0 +1,59 @@
+package com.company._30DaysOfCode;
+
+// import java.util.concurrent.TimeUnit;
+import java.util.Scanner;
+
+public class Day17UserDefinedException {
+
+    /*
+    public static final double tooHot = 185;
+    public static final double tooCold = 160;
+
+    public static void drinkHotChocolate(double cocoaTemp) throws TooHotException, TooColdException {
+        if(cocoaTemp>=tooHot){
+            throw new TooHotException();
+        }else if(cocoaTemp<=tooCold){
+            throw new TooColdException();
+        }
+    }
+
+
+    public static void main(String[] args) throws InterruptedException {
+        double currentCocoaTemp = 200;
+        boolean wrongTemp = true;
+        while (wrongTemp){
+            try{
+                drinkHotChocolate(currentCocoaTemp);
+                System.out.println("The cocoa was good!");
+                wrongTemp = false;
+            }catch (TooColdException e){
+                currentCocoaTemp = currentCocoaTemp + 5;
+                System.out.println("That's too cold!, It's like arctic");
+            }catch (TooHotException e){
+                currentCocoaTemp = currentCocoaTemp -5;
+                System.out.println("That's so hot!");
+            }
+            TimeUnit.SECONDS.sleep(2);
+        }
+    }
+     */
+
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int t = in.nextInt();
+        while (t-- > 0) {
+
+            int n = in.nextInt();
+            int p = in.nextInt();
+            Calculator myCalculator = new Calculator();
+            try {
+                int ans = myCalculator.power(n, p);
+                System.out.println(ans);
+            }
+            catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        in.close();
+    }
+}
