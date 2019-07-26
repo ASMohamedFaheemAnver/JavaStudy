@@ -1,24 +1,25 @@
 
-Vsquid:S1197"8Move the array designator from the variable to the type.(œÛ©Ø8 Ç¦½-
-[squid:S1197"8Move the array designator from the variable to the type.(Ğ®Åşÿÿÿÿ8 Ç¦½-
-V
-squid:S1069"9Replace this use of System.out or System.err by a logger.(Î›Ç¨8 Ç¦½-
-[squid:S1197"8Move the array designator from the variable to the type.(Á”±›üÿÿÿÿ8 Ç¦½-
 [
-squid:S106;"9Replace this use of System.out or System.err by a logger.(»Œûÿÿÿÿ8 Ç¦½-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ˆÑÿÏ8 Ç¦½-
-[squid:S1197"8Move the array designator from the variable to the type.(ğÙşÿÿÿÿ8 Ç¦½-
-Vsquid:S1197"8Move the array designator from the variable to the type.(ß±ØÇ8 Ç¦½-
-[squid:S1197"8Move the array designator from the variable to the type.(­°ÇĞÿÿÿÿÿ8 Ç¦½-
-V
-squid:S106>"9Replace this use of System.out or System.err by a logger.(ÈÌ€8 Ç¦½-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ºÛ± 8 Ç¦½-
+squid:S106W"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ñ™»×½-
+osquid:S3457V"Q%n should be used in place of \n to produce the platform-specific line separator.(û©™×8ñ™»×½-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(­ñŠF8ñ™»×½-
 [
-squid:S1060"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8 Ç¦½-
+squid:S106	"9Replace this use of System.out or System.err by a logger.(ôä˜Ùşÿÿÿÿ8ñ™»×½-
 V
-squid:S106@"9Replace this use of System.out or System.err by a logger.(—£Î²8 Ç¦½-
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(¼Ëœ¦8ñ™»×½-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8 Ç¦½-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8 Ç¦½-
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(å‹ÙÎ8 Ç¦½-
-`squid:UselessImportCheck"5Remove this unused import 'java.text.ParseException'.(ñ®ï•8 Ç¦½-
+squid:S106V"9Replace this use of System.out or System.err by a logger.(û©™×8ñ™»×½-
+osquid:S3457Z"Q%n should be used in place of \n to produce the platform-specific line separator.(¼Ëœ¦8ñ™»×½-
+[
+squid:S106T"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ñ™»×½-
+osquid:S3457S"Q%n should be used in place of \n to produce the platform-specific line separator.(â«Ê8ñ™»×½-
+tsquid:S3457["Q%n should be used in place of \n to produce the platform-specific line separator.(ãÃÅæşÿÿÿÿ8ñ™»×½-
+V
+squid:S106S"9Replace this use of System.out or System.err by a logger.(â«Ê8ñ™»×½-
+[
+squid:S106["9Replace this use of System.out or System.err by a logger.(ãÃÅæşÿÿÿÿ8ñ™»×½-
