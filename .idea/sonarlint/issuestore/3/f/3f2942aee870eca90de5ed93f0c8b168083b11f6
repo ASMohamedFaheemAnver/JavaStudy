@@ -1,18 +1,18 @@
 
+O
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ÛØžå
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦¡¿¾ÿÿÿÿÿ
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(–êù”üÿÿÿÿ
+\squid:S2134"@Don't extend "Thread", since the "run" method is not overridden.(‘­”¬ûÿÿÿÿ
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(³óïØüÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÕÃ÷ùùÿÿÿÿ
 O
 squid:S106"9Replace this use of System.out or System.err by a logger.(Ù¨‹Á
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(õ¹¥üúÿÿÿÿ
-O
-squid:S106$"9Replace this use of System.out or System.err by a logger.(ÛØžå
-\squid:S2134"@Don't extend "Thread", since the "run" method is not overridden.(‘­”¬ûÿÿÿÿ
 T
 squid:S106 "9Replace this use of System.out or System.err by a logger.(´òÓˆüÿÿÿÿ
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¦¡¿¾ÿÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÕÃ÷ùùÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(³óïØüÿÿÿÿ
