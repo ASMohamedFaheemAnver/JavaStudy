@@ -18,7 +18,7 @@ public class Philosopher implements Runnable{
     public void run() {
         try{
             while (true){
-                doAction(System.nanoTime() + ":Thinking");
+                doAction(System.nanoTime() + ": Thinking");
                 synchronized (leftFork){
                     doAction(System.nanoTime() + ": Picked up left fork");
                     doAction(System.nanoTime() + ": Picked up right fork and eating");
