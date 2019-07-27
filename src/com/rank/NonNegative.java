@@ -1,4 +1,4 @@
-package com.company._30DaysOfCode;
+package com.rank;
 
 class NonNegative extends Exception{
     @Override

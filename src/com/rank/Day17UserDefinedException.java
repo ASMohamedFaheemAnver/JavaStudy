@@ -1,4 +1,4 @@
-package com.company._30DaysOfCode;
+package com.rank;
 
 // import java.util.concurrent.TimeUnit;
 import java.util.Scanner;

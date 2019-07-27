@@ -1,4 +1,4 @@
-package com.company._30DaysOfCode;
+package com.rank;
 
 class Calculator{
     public int power(int n, int p) throws NonNegative {
