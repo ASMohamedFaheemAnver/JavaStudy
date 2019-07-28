@@ -23,3 +23,7 @@ Q
 !src/com/rank/TooHotException.java,d/4/d47ca17a7b118112a4ecbd33963e3bcd5ee4bed9
 O
 src/com/extra/ThreadInJava.java,3/f/3f2942aee870eca90de5ed93f0c8b168083b11f6
+S
+#src/com/semaphores/Philosopher.java,1/1/110ab5676d91b3958e22ea1dfe866453312899b9
+Z
+*src/com/semaphores/DiningPhilosophers.java,9/6/9680bfc806566a76276081ee5c09438eaf366593

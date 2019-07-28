@@ -1,25 +1,25 @@
 
-hsquid:S3457Z"Q%n should be used in place of \n to produce the platform-specific line separator.(¼Ëœ¦
 hsquid:S3457S"Q%n should be used in place of \n to produce the platform-specific line separator.(âŽ«Ê
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
 O
 squid:S106Z"9Replace this use of System.out or System.err by a logger.(¼Ëœ¦
 T
-squid:S106	"9Replace this use of System.out or System.err by a logger.(ôä˜Ùþÿÿÿÿ
-msquid:S3457["Q%n should be used in place of \n to produce the platform-specific line separator.(ãÃÅæþÿÿÿÿ
-hsquid:S3457V"Q%n should be used in place of \n to produce the platform-specific line separator.(û©™×
-O
-squid:S106V"9Replace this use of System.out or System.err by a logger.(û©™×
-O
-squid:S106S"9Replace this use of System.out or System.err by a logger.(âŽ«Ê
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
 N
 squid:S106"9Replace this use of System.out or System.err by a logger.(­ñŠF
 T
-squid:S106W"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
 T
 squid:S106T"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+O
+squid:S106S"9Replace this use of System.out or System.err by a logger.(âŽ«Ê
+hsquid:S3457V"Q%n should be used in place of \n to produce the platform-specific line separator.(û©™×
+T
+squid:S106W"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+O
+squid:S106V"9Replace this use of System.out or System.err by a logger.(û©™×
+msquid:S3457["Q%n should be used in place of \n to produce the platform-specific line separator.(ãÃÅæþÿÿÿÿ
+T
+squid:S106	"9Replace this use of System.out or System.err by a logger.(ôä˜Ùþÿÿÿÿ
 T
 squid:S106["9Replace this use of System.out or System.err by a logger.(ãÃÅæþÿÿÿÿ
+hsquid:S3457Z"Q%n should be used in place of \n to produce the platform-specific line separator.(¼Ëœ¦
