@@ -1,7 +1,6 @@
 
-Esquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8î“ªŸÃ-
+9squid:S3626""Remove this redundant jump.(ûÁİ…8ÁˆÀÃ-
+Esquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ÁˆÀÃ-
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(â–ã½ùÿÿÿÿ8Ÿñ¢ŸÃ-
-Isquid:S1068"-Remove this unused "rightFork" private field.(ì‰£±úÿÿÿÿ
-Lsquid:S2140")Use "java.util.Random.nextInt()" instead.(æ²ŠÍüÿÿÿÿ8¥‘¦ŸÃ-
-9squid:S3626!"Remove this redundant jump.(ûÁİ…8İÎ®ŸÃ-
+squid:S106"9Replace this use of System.out or System.err by a logger.(â–ã½ùÿÿÿÿ8ÁˆÀÃ-
+Lsquid:S2140")Use "java.util.Random.nextInt()" instead.(ı¤Áúÿÿÿÿ8ÁˆÀÃ-

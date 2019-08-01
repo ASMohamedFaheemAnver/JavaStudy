@@ -1,0 +1,7 @@
+
+ysquid:S00116	"URename this field "DbUserName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ÍÏ–ùÿÿÿÿ8“×ëáÄ-
+j$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(½¸ÂØûÿÿÿÿ8Œ€ëáÄ-
+usquid:S1450"RRemove the "con" field and declare it as a local variable in the relevant methods.(èÜ¼Éüÿÿÿÿ8Ê·êáÄ-
+Lsquid:S2115")Add password protection to this database.(½¸ÂØûÿÿÿÿ8Ê·êáÄ-
+ysquid:S00116
+"URename this field "DbPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘š¡´øÿÿÿÿ8“×ëáÄ-
