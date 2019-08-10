@@ -49,3 +49,5 @@ g
 7src/com/construction/operation/VariableCostProject.java,0/d/0d55c12dc21e681d5963de51191a262f898e1863
 V
 &src/com/construction/DbConnection.java,a/c/ac9475213c699a9f94f95e88aaaf1120a342b8d3
+Q
+!.idea/dictionaries/ubunturifa.xml,2/1/214d2ee9f8d4e91cf31e169cc96e697d095b2fe7
