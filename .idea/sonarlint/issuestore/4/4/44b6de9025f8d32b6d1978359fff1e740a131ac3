@@ -1,0 +1,5 @@
+
+Ysquid:S1751"6Remove this "return" statement or make it conditional.(û“ãµıÿÿÿÿ8ù¼ªéÄ-
+jsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¿ß½”şÿÿÿÿ8°¨âÄ-
+usquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(¿ß½”şÿÿÿÿ8°¨âÄ-
+esquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìƒ®Ÿ8¹Á£âÄ-
