@@ -1,0 +1,8 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÇÃ§åşÿÿÿÿ8ññÖşÊ-
+dsquid:S1075	"ARefactor your code to get this URI from a customizable parameter.(è£ Öüÿÿÿÿ8ÑºÊşÊ-
+ksquid:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(®Ñ›ÿÿÿÿÿ8ññÖşÊ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¼÷Èõşÿÿÿÿ8ÑºÊşÊ-
+osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¹®Ùœÿÿÿÿÿ8ÑºÊşÊ-
