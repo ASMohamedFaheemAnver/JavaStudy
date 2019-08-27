@@ -7,11 +7,14 @@ public class RichestDay {
         Scanner scanner = new Scanner(System.in);
         int numberofproject = scanner.nextInt();
         List<Map<Integer, Integer>> listofdaysalary = new ArrayList<Map<Integer, Integer>>();
-
+        int maxend = 0;
         for(int i = 1; i<numberofproject+1; i++){
             int salary = scanner.nextInt();
             int startingdate = scanner.nextInt();
             int enddingdate = scanner.nextInt();
+            if(maxend < enddingdate){
+                maxend = enddingdate;
+            }
             Map<Integer, Integer> map = new HashMap<Integer, Integer>();
             for(int j = 1; j<enddingdate+1; j++){
                 if (j>startingdate-1){
@@ -20,23 +23,24 @@ public class RichestDay {
             }
             listofdaysalary.add(map);
         }
-        int[] total = new int[numberofproject];
+        int[] total = new int[maxend];
 
-        int index = 0;
         for (Map map: listofdaysalary) {
-            while (map.get(index+1)==null){
-                try {
-                    total[index] += Integer.parseInt(String.valueOf(map.get(index+1)));
-                }catch (ArrayIndexOutOfBoundsException e){
-                    break;
-                }catch (NumberFormatException e){
-                    total[index] += 0;
+            int index = 0;
+            while (index<maxend){
+                if(map.containsKey(index+1)){
+                    int x = (int) map.get(index+1);
+                    total[index] += x;
                 }
                 index++;
             }
         }
-        for (int i = 0; i<numberofproject; i++){
-            System.out.println(total[i]);
+        int richmoney = 0;
+        for (int i = 0; i<maxend; i++){
+            if (richmoney<total[i]){
+                richmoney = total[i];
+            }
         }
+        System.out.println(richmoney);
     }
 }
