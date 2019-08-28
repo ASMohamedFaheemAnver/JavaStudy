@@ -59,3 +59,9 @@ H
 src/com/extra/readme.txt,9/d/9d68cda74bb095e048c1ee98224ed20d65a1a1ce
 K
 src/com/extra/ReadFile.java,b/8/b8b9814fe999f47b00c27f7f2182b7536492c6a3
+‡
+Wsrc/com/acescoders/Random Groups _ ACES Coders v7 Question _ Contests _ HackerRank.html,6/1/61b23cb5c1b5b6547cc0ec04bcc7a9471b4c8e47
+…
+Usrc/com/acescoders/Richest Day _ ACES Coders v7 Question _ Contests _ HackerRank.html,a/3/a3d7d264c8f02a79c2238da40a04653cb1a7c1e8
+R
+"src/com/acescoders/RichestDay.java,c/a/caac119266ee6f9444ce63613f540006fb22a967
