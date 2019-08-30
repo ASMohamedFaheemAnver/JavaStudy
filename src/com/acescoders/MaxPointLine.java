@@ -1,13 +1,19 @@
 package com.acescoders;
 
-import com.acescoders.data.Point;
-
 import java.util.HashMap;
 import java.util.Map;
 
+class DataType {
+    int x;
+    int y;
+    DataType(int a, int b){
+        x = a;
+        y = b;
+    }
+}
 
 class MaxPointLine {
-    public static int maxPoints(Point[] points) {
+    public static int maxPoints(DataType[] points) {
         if (points == null || points.length == 0) return 0;
         int result = 0;
         Map<String, Integer> map = new HashMap<>();
@@ -44,14 +50,13 @@ class MaxPointLine {
         if (b == 0) return a;
         return findGCD(b, a % b);
     }
-
     public static void main(String[] args){
-        Point[] x = new Point[5];
-        x[0] = new Point(9, 11);
-        x[1] = new Point(2, 4);
-        x[2] = new Point(8, 9);
-        x[3] = new Point(5, 7);
-        x[4] = new Point(2, 3);
+        DataType[] x = new DataType[5];
+        x[0] = new DataType(9, 11);
+        x[1] = new DataType(9, 11);
+        x[2] = new DataType(9, 11);
+        x[3] = new DataType(5, 11);
+        x[4] = new DataType(9, 11);
         System.out.println(maxPoints(x));
     }
 }
