@@ -59,45 +59,17 @@ H
 src/com/extra/readme.txt,9/d/9d68cda74bb095e048c1ee98224ed20d65a1a1ce
 K
 src/com/extra/ReadFile.java,b/8/b8b9814fe999f47b00c27f7f2182b7536492c6a3
-á
-Wsrc/com/acescoders/Random Groups _ ACES Coders v7 Question _ Contests _ HackerRank.html,6/1/61b23cb5c1b5b6547cc0ec04bcc7a9471b4c8e47
-Ö
-Usrc/com/acescoders/Richest Day _ ACES Coders v7 Question _ Contests _ HackerRank.html,a/3/a3d7d264c8f02a79c2238da40a04653cb1a7c1e8
 R
 "src/com/acescoders/RichestDay.java,c/a/caac119266ee6f9444ce63613f540006fb22a967
-É
-Ssrc/com/acescoders/Ball Boys _ ACES Coders v7 Question _ Contests _ HackerRank.html,e/8/e89e902012d21a7492362464a1d86914bf75872c
-Ö
-Usrc/com/acescoders/Barber Shop _ ACES Coders v7 Question _ Contests _ HackerRank.html,8/f/8f8e82590fff824c86c0a5a802d7270e68b1548e
-ã
-[src/com/acescoders/Circle Chord Game _ ACES Coders v7 Question _ Contests _ HackerRank.html,4/6/464cbf00ae139cfaac6788d16b6d861407ca58fb
-á
-Wsrc/com/acescoders/Distinct GCDs _ ACES Coders v7 Question _ Contests _ HackerRank.html,5/2/52b17084046a96eccaba97ed3ca26dfe06ae62b4
-á
-Wsrc/com/acescoders/Fair Ordering _ ACES Coders v7 Question _ Contests _ HackerRank.html,3/0/30bf2b9686df43a37e0911442f91dfafa6b76773
-ç
-]src/com/acescoders/Large Sub-Array Sum _ ACES Coders v7 Question _ Contests _ HackerRank.html,d/7/d71557bbde853e5358220166eac5ba3c24ccf47d
-ç
-]src/com/acescoders/Multi-AP Free Wi-Fi _ ACES Coders v7 Question _ Contests _ HackerRank.html,2/b/2ba183315e5e3261c6390279f5ec7efe38dd13a6
-í
-bsrc/com/acescoders/Nimal's Restaurant Visit _ ACES Coders v7 Question _ Contests _ HackerRank.html,b/d/bdb1a4c62ed909d98bee6b6f3fc4287454ca1a6d
-ä
-Zsrc/com/acescoders/Points and Lines _ ACES Coders v7 Question _ Contests _ HackerRank.html,7/e/7ee4d017818aa26d2960d848474411ede084504d
-ä
-Zsrc/com/acescoders/Shoot the Aliens _ ACES Coders v7 Question _ Contests _ HackerRank.html,3/d/3dbe3750b24d3b0cae7e16468fb2a227b7bfd27c
-ä
-Zsrc/com/acescoders/The Gift Voucher _ ACES Coders v7 Question _ Contests _ HackerRank.html,7/4/745c87cfd8bbd5fc4f2e88e45bad2387d4efce4c
-ï
-esrc/com/acescoders/Trading Position Calculator _ ACES Coders v7 Question _ Contests _ HackerRank.html,b/a/ba5e302af74cdb2f0e1b06503dd876f8dd8c8691
-Ö
-Usrc/com/acescoders/Tuktuk Park _ ACES Coders v7 Question _ Contests _ HackerRank.html,4/4/4471f2adbfa04d69f3977fd3960c9879dfc39dc6
-ä
-Zsrc/com/acescoders/Twin GCD Subsets _ ACES Coders v7 Question _ Contests _ HackerRank.html,c/f/cf42b328be1d5b457a69290ece822a74bf94f243
-ä
-Zsrc/com/acescoders/Weird Subset Sum _ ACES Coders v7 Question _ Contests _ HackerRank.html,6/3/637055aef9decf80b914d9afb4c066bb0ae1b43f
-å
-\src/com/acescoders/Wheels and spheres _ ACES Coders v7 Question _ Contests _ HackerRank.html,7/c/7c798aa09cdb500bb9ba61dacc90a2b7bcc253b4
 V
 &src/com/acescoders/PointsandLines.java,a/f/aff31ca2b9d7fb3070db7e68a857fdc1ae13f872
 T
 $src/com/acescoders/MaxPointLine.java,f/c/fc89efc76b744dc45e9d7177744a840a5b38ec5a
+W
+'src/com/acescoders/MaxPointLineTwo.java,3/9/391c895686d0f05dd1c9d176bdb84c4c4c1b6d2f
+R
+"src/com/acescoders/data/Point.java,8/3/837e98daa143ae4031031e19618f786071ffa709
+S
+#src/com/acescoders/RandomGroup.java,1/0/10e3e6e4ba4a6fce6f3c12e87c67944511a0dd64
+P
+ src/com/rank/regex/Solution.java,1/c/1c6fbf163ce5e299de7d4297a515a256efbcd387
