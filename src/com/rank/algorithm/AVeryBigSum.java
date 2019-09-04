@@ -1,4 +1,4 @@
-package com.algorithm;
+package com.rank.algorithm;
 
 public class AVeryBigSum {
     static long aVeryBigSum(long[] ar) {

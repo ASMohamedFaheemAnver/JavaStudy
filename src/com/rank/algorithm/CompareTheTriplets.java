@@ -1,4 +1,4 @@
-package com.algorithm;
+package com.rank.algorithm;
 
 
 import java.util.ArrayList;
