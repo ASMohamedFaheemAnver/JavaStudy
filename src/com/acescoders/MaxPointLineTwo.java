@@ -62,6 +62,12 @@ public class MaxPointLineTwo {
             xyPoints[index].index = index;
         }
 
+        boolean isLength = true;
+
+        if(numberOfPoints<5){
+            isLength = false;
+        }
+
         int removedlength = 0;
         boolean lineone = false;
         boolean linetwo = false;
@@ -102,7 +108,7 @@ public class MaxPointLineTwo {
             }
         }
 
-        if(!invalid && lineone && linetwo){
+        if(!invalid && lineone && linetwo & isLength){
             for (int x: maxPoints(xyPoints)){
                 if(x!=-1){
                     System.out.print(x + " ");
@@ -117,6 +123,5 @@ public class MaxPointLineTwo {
         }else {
             System.out.println(-1);
         }
-
     }
 }
