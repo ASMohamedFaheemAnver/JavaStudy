@@ -1,4 +1,4 @@
-package acescoders.data;
+package com.acescoders.data;
 
 public class Point {
     public int x;

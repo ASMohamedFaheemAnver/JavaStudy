@@ -1,6 +1,6 @@
-package acescoders;
+package com.acescoders;
 
-import acescoders.data.Point;
+import com.acescoders.data.Point;
 
 import java.util.Scanner;
 
