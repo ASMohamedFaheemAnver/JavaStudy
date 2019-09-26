@@ -1,4 +1,4 @@
-package com.acescoders;
+package acescoders;
 
 import java.util.Scanner;
 
