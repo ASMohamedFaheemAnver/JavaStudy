@@ -1,0 +1,8 @@
+
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¨˜”Ú
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™²ø¦úÿÿÿÿ
+Ksquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(Ž­Üë
+T
+squid:S106""9Replace this use of System.out or System.err by a logger.(ùÑ¿àøÿÿÿÿ
+T
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ü©Äµÿÿÿÿÿ
