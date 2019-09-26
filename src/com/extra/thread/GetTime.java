@@ -1,11 +1,11 @@
 package com.extra.thread;
 
-import javax.xml.crypto.Data;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class GetTime extends Thread{
+public class GetTime{
+
     public void run(){
         Date rightNow;
         Locale currentLocale;
