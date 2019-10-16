@@ -1,4 +1,4 @@
-package com.extra.observerpatterntwo;
+package com.extra.observer.observerpatterntwo;
 
 public class GrabStock {
     public static void main(String[] args){

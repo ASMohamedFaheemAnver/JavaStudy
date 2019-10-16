@@ -1,4 +1,4 @@
-package com.extra.observerpattern;
+package com.extra.observer.observerpattern;
 
 import java.util.Observable;
 import java.util.Observer;

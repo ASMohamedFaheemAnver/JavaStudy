@@ -1,6 +1,4 @@
-package com.extra.observerpatterntwo;
-
-import java.util.Observer;
+package com.extra.observer.observerpatterntwo;
 
 public interface Subject {
     public void register(ObserverE o);
