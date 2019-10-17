@@ -16,7 +16,7 @@ public class ThreadClass extends Observable implements Runnable{
             System.out.println(someValue);
 
             try {
-                TimeUnit.SECONDS.sleep(2);
+                TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

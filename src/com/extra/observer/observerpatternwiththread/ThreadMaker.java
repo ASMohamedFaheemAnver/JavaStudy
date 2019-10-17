@@ -13,7 +13,7 @@ public class ThreadMaker extends Observable implements ObserveR{
     }
 
     @Override
-    public void update() {
+    public void update() { // can send flags and messages
         notifyObserver();
     }
 }
