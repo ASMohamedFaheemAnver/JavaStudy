@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class RunTimeComplexityPractice {
 
+    // Want to get answer
+
     public static int[] findNumberOfRepetitionsVersionOne(String s, char[] c){
         int sum[] = new int[c.length];
 
@@ -16,7 +18,7 @@ public class RunTimeComplexityPractice {
             }
         }
 
-        return sum;
+        return sum; // Big(O) n*m
     }
 
     public static int[] findNumberOfRepetitionsVersionTwo(String s, char[] c){
@@ -28,35 +30,43 @@ public class RunTimeComplexityPractice {
             if (!map.containsKey(s.charAt(i))){
                 map.put(s.charAt(i), 1);
             }else {
-                map.put(s.charAt(i), map.get(s.charAt(i))+1);
+                int total = map.get(s.charAt(i));
+                map.put(s.charAt(i), total+1);
             }
         }
 
         for (int j = 0; j<c.length; j++){
-            if (!map.containsKey(c[j])){
+            if (!map.containsKey(c[j])){ // How it became faster than Version one
                 sum[j] = 0;
             }else {
                 sum[j] = map.get(c[j]);
             }
         }
 
-        return sum;
+        return sum; // Big(O) (n+m)
     }
 
 
-    public static void main(String[] args){
-        long startTime = System.currentTimeMillis();
+    public static void main(String[] args) throws InterruptedException {
         char[] c = {'a', 'b', 'c'};
 
-        for (int x : findNumberOfRepetitionsVersionTwo("aaaaaaaaaabbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", c)){
-            System.out.print(x + " ");
-        }
-        System.out.println();
+        String string = "";
 
+        for (int i = 0; i<100000; i++){
+            string += "abc";
+        }
+
+        long startTime = System.currentTimeMillis();
+        System.out.println(findNumberOfRepetitionsVersionOne(string, c));
         long endTime = System.currentTimeMillis();
 
-        long difference = endTime - startTime;
+        long different = endTime - startTime;
+        System.out.println(startTime + " " + endTime + " " + different);
 
-        System.out.println(difference + "ms");
+        startTime = System.currentTimeMillis();
+        System.out.println(findNumberOfRepetitionsVersionTwo(string, c));
+        endTime = System.currentTimeMillis();
+        different = endTime - startTime;
+        System.out.println(startTime + " " + endTime + " " + different);
     }
 }
