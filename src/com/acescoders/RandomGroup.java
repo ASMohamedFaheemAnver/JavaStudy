@@ -5,6 +5,9 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class RandomGroup {
+    // To do
+    // https://stackoverflow.com/questions/7049011/whats-the-fastest-way-to-read-from-system-in-in-java
+    // https://stackoverflow.com/questions/11823095/whats-the-fastest-way-to-output-a-string-to-system-out
     public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,11 +22,15 @@ public class RandomGroup {
             for (int j = 0; j < numberOfInput; j++) { // O(n)
                 int input = scanner.nextInt();
 
-                if (map.containsKey(input)) { // O(n) doubt
+                if (true) { // O(n) doubt
                     int numberOfMembers = map.get(input);
                     if (numberOfMembers < 2) {
                         map.put(input, numberOfMembers + 1);
                         generatedPairs++;
+                        if (generatedPairs>numberOfPairNeeded){
+                            scanner.nextLine();
+                            break;
+                        }
                     } else if (numberOfMembers > 2) {
                         scanner.nextLine();
                         isBreak =true;
