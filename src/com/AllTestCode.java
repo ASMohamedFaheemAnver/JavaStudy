@@ -1,25 +1,13 @@
 package com;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 public class AllTestCode {
     public static void main(String[] args){
-        System.out.println(Float.MAX_VALUE);
+        List<Integer> list = new ArrayList<>();
 
-        System.out.println(new SomeThing() {
-            @Override
-            void doSomething() {
-
-            }
-
-            @Override
-            void doOtherThings() {
-
-            }
-        });
+        list.remove(5);
     }
-}
-
-
-abstract class SomeThing{
-    abstract void doSomething();
-    abstract void doOtherThings();
 }
