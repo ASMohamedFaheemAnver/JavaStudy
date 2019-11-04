@@ -1,4 +1,4 @@
-package com.rank.shecode;
+package com.shecode;
 
 import java.util.HashMap;
 import java.util.LinkedList;

@@ -1,7 +1,5 @@
-package com.rank.shecode;
+package com.shecode;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Nokia {

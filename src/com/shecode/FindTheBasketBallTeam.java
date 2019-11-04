@@ -1,4 +1,4 @@
-package com.rank.shecode;
+package com.shecode;
 
 import java.util.ArrayList;
 import java.util.Collections;

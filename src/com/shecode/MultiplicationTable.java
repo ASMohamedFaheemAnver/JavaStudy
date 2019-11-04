@@ -1,4 +1,4 @@
-package com.rank.shecode;
+package com.shecode;
 
 import java.io.DataInputStream;
 import java.io.IOException;
