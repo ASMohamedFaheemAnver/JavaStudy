@@ -21,7 +21,7 @@ public class SubSetSum {
 //    }
 
     // https://www.geeksforgeeks.org/check-if-is-possible-to-get-given-sum-from-a-given-set-of-elements/
-    public static boolean isSubSetSumExist(int[] set, int value, int max){
+    public static boolean isSubSetSumExistWithDuplicate(int[] set, int value, int max){
         int length = set.length;
         // We can change it to boolean
         int[] isPossible = new int[max];
@@ -42,5 +42,34 @@ public class SubSetSum {
             }
         }
         return false;
+    }
+
+    public static boolean isSubSetSumExistWithoutDuplicate(int[] set, int sum){
+        int length = set.length;
+        boolean[][] subSet = new boolean[sum+1][length+1];
+
+        for (int i = 0; i<=sum; i++){
+            subSet[i][0] = true;
+        }
+
+        for (int i = 1; i<=length; i++){
+            subSet[i][0] = false;
+        }
+
+        for (int i = 1; i<=length; i++){
+            for (int j = 1; j<=sum; j++){
+                subSet[i][j] = subSet[i-1][j];
+                if (i>=set[i-1]){
+                    subSet[i][j] = subSet[i][j] || subSet[i - set[j-1]][j-1];
+                }
+            }
+        }
+
+        return subSet[sum][length];
+    }
+
+    public static void main(String[] args){
+        int[] arr = {2, 3, 5, 7};
+        System.out.println(SubSetSum.isSubSetSumExistWithoutDuplicate(arr, 10));
     }
 }
