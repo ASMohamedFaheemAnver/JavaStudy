@@ -1,0 +1,2 @@
+# JavaStudy
+RANDOM JAVA SOLUTIONS!
